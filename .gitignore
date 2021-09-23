@@ -1,5 +1,6 @@
 /.env
+/public
 /static/BingSiteAuth.xml
 /static/google*.html
 /static/robots.txt
-/public
+node_modules
