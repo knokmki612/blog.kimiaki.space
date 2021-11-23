@@ -1,6 +1,11 @@
 ---
 title: 概要
 date: 2015-11-27T04:44:17.000Z
+menu:
+  main:
+    identifier: root
+    title: 私について
+    weight: 1
 ---
 {{% tab %}}
 

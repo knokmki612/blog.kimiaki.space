@@ -1,6 +1,11 @@
 ---
 title: 作ったもの
 date: 2015-11-27T13:48:39+09:00
+menu:
+  main:
+    identifier: product
+    title: 作ったもの
+    weight: 2
 ---
 
 ## Androidアプリケーション
