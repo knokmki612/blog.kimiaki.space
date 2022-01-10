@@ -30,7 +30,7 @@ menu:
 - 情報コースを2019年度に卒業してから2020年度に社会と産業コースへ再入学した[放送大学](http://www.ouj.ac.jp)生です
 - [OSS Gateという取り組み](https://oss-gate.github.io/about/)に継続的に参加しています
 - [ツクロア](https://tuqulore.com)でデザインエンジニアをしています
-- [Vivaldi](https://vivaldi.com)のモデレーター、ソプラノ(ボランティアテスター)、翻訳をしていました
+- [Live2DアバターをつくってVTuberデビュー]({{% relref "/blog/2022/made-live2d-avatar" %}})しました
 
 ### 趣味・関心
 
