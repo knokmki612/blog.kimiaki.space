@@ -69,7 +69,7 @@ VTuber以外にもビデオチャットでアバターを使ったり、直接�
 
 ### 今後試したいこと
 
-FaceRigは2021年でサポートが終了したので、後継の[Animaze](https://store.steampowered.com/app/1364390/Animaze_by_FaceRig/)か[VTube Studio](https://store.steampowered.com/app/1325860/VTube_Studio/)で使えるようにしたいです。
+FaceRigは[2021年でサポートが終了](https://store.steampowered.com/news/app/274920/view/2892957851512187976)したので、後継の[Animaze](https://store.steampowered.com/app/1364390/Animaze_by_FaceRig/)か[VTube Studio](https://store.steampowered.com/app/1325860/VTube_Studio/)で使えるようにしたいです。
 
 他には、今回起こしたキャラクターデザインをもとに3Dモデリングも試してみたいなと思いました。
 
