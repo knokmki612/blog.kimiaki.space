@@ -12,7 +12,7 @@ menu:
 
 ### [Ringspot (リンスポット)](https://play.google.com/store/apps/details?id=jp.techinstitute.tiad1401313.ringspot)
 
-{{% video "OCDj1Acolfw" %}}
+{{% youtube "OCDj1Acolfw" %}}
 
 位置情報を利用して、現在位置にあわせて着信音のオン/オフ、着信音の変更ができるようになるアプリです。メンテナンスしていなかったため公開停止しました。
 
