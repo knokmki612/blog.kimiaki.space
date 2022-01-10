@@ -75,10 +75,17 @@ menu:
 
 競技スキーに興味あるけどお金がかかりそうですね。SAJのライセンスとってみようかなと思っています。
 
-#### LinuxディストリビューションやOSS
+#### Linuxディストリビューション
 
-- Gentooなデスクトップ環境を使っています
-- Debianでおうちラップトップサーバーを動かしています
+- Fedora SilverblueをラップトップとタワーPCで使っています
+- GentooをラップトップとタワーPCで使っていました
+- Debian (Stable→Testing→Unstable)をラップトップとタワーPCとおうちラップトップサーバーで使っていました
+
+#### OSS
+
+- なるべく自分の成果物はOSSライセンスとか自由なライセンスのもと公開しています
+- 薄く広くバグレポート送ったりパッチ送ったりしています
+- 特定のOSSにコミッターとして継続的に開発に参加したことはほとんどないです
 
 利用しているOSSに対して、利用者以外の形でも関わっていきたいです。
 
@@ -97,9 +104,9 @@ menu:
 
 適切な表現が分からないですが、ユーザの目的に叶い、効率のよいインタフェースを考えることにエネルギーを使いたいです。
 
-…とりあえずそれ以前に自分で自分の衣食住を確保できる余裕をもちたいです。
+また、基本独りが好きですが、天涯孤独はさみしいので人生のパートナーがいると嬉しいです。[思い切って色々書いている]({{% relref "/marriage-and-dating" %}})ので興味があればみてください。
 
-また、[時間とか生活を共にする人]({{% relref "/marriage-and-dating" %}})がいると嬉しいなあと思っています。
+…とりあえずそれら以前に自分で自分の衣食住を確保できる余裕をもちたいです。
 
 ### 連絡先やアカウント
 
@@ -110,6 +117,7 @@ menu:
 - [Pawoo](https://pawoo.net/@knokmki612)
 - [Vivaldi Forum](https://forum.vivaldi.net/user/knokmki612)
 - [Twitch](https://www.twitch.tv/knokmki612)
+- [YouTube](https://www.youtube.com/channel/UCeRVLPGnyHnch_xefXGYWHQ)
 
 #### [PGP](/knokmki612.asc)
 
