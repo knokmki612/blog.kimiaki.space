@@ -72,6 +72,7 @@ I want to work to usability engineering.
 - [Pawoo](https://pawoo.net/@knokmki612)
 - [Vivaldi Forum](https://forum.vivaldi.net/user/knokmki612)
 - [Twitch](https://www.twitch.tv/knokmki612)
+- [YouTube](https://www.youtube.com/channel/UCeRVLPGnyHnch_xefXGYWHQ)
 
 #### [PGP](/knokmki612.asc)
 
