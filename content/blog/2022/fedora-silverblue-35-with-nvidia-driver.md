@@ -9,9 +9,7 @@ archives:
   - 2022-04
 ---
 
-```
-
-Nvidiaのグラフィックボードを使っている環境では、デフォルトだとグラフィックドライバーとして[Nouvear](https://nouveau.freedesktop.org/)が使われる。しかし、比較的新しいグラフィックボードを使っている場合や、CUDA、nvencなどを使いたい場合はNvidiaが提供しているドライバーが必要になる。
+Nvidiaのグラフィックボードを使っている環境では、デフォルトだとグラフィックドライバーとして[Nouveau](https://nouveau.freedesktop.org/)が使われる。しかし、比較的新しいグラフィックボードを使っている場合や、CUDA、nvencなどを使いたい場合はNvidiaが提供しているドライバーが必要になる。
 
 Fedora Silverblue 35時点でどのような手順で導入することになるか記しておきたいと思う。
 
@@ -41,6 +39,8 @@ systemctl reboot
 ```shell
 # カーネルモジュール、ディスプレイドライバー、CUDA関連、電源管理関連のパッケージのインストール
 rpm-ostree install akmod-nvidia xorg-x11-drv-nvidia{,-cuda,-cuda-libs,-power}
+# Nouveauの代わりにNvidiaのドライバーを使うなどのカーネルパラメーターの設定
+rpm-ostree kargs --append=rd.driver.blacklist=nouveau --append=modprobe.blacklist=nouveau --append=nvidia-drm.modeset=1
 # 反映には再起動が必要
 systemctl reboot
 # 電源管理関連のサービスを自動起動するように変更
