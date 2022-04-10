@@ -1,5 +1,5 @@
 ---
-title: Fedora Silverblue 35でNvidia Driverを使う時のTips
+title: Fedora Silverblue 35でNVIDIAのグラフィックドライバーを使う時のTips
 date: 2022-04-10T11:05:17+09:00
 tags:
   - Tips
@@ -9,7 +9,7 @@ archives:
   - 2022-04
 ---
 
-Nvidiaのグラフィックボードを使っている環境では、デフォルトだとグラフィックドライバーとして[Nouveau](https://nouveau.freedesktop.org/)が使われる。しかし、比較的新しいグラフィックボードを使っている場合や、CUDA、nvencなどを使いたい場合はNvidiaが提供しているドライバーが必要になる。
+NVIDIAのグラフィックボードを使っている環境では、デフォルトだとグラフィックドライバーとして[Nouveau](https://nouveau.freedesktop.org/)が使われる。しかし、比較的新しいグラフィックボードを使っている場合や、CUDA、NVENCなどを使いたい場合はNVIDIAが提供しているドライバーが必要になる。
 
 Fedora Silverblue 35時点でどのような手順で導入することになるか記しておきたいと思う。
 
@@ -19,7 +19,7 @@ Fedora Silverblue 35時点でどのような手順で導入することになる
 
 [^リポジトリの追加]: https://rpmfusion.org/Configuration
 
-NvidiaのドライバーはFedora / RHELでは提供しておらず、RPM Fusionがコンパイル済みのRPMパッケージを提供してくれている。
+NVIDIAのドライバーはFedora / RHELでは提供されておらず、RPM Fusionがコンパイル済みのRPMパッケージを提供してくれている。
 
 RPM FusionではOSSなパッケージはfree、プロプライエタリなパッケージはnonfreeのリポジトリで提供されている。Nvidiaのドライバーはプロプライエタリなので、nonfreeのリポジトリを追加する必要がある。nonfreeのリポジトリを利用するにもfreeのリポジトリが必要なので、両方追加する。
 
@@ -32,7 +32,7 @@ https://mirrors.rpmfusion.org/free/fedora/rpmfusion-nonfree-release-$(rpm -E %fe
 systemctl reboot
 ```
 
-### Nvdiaのドライバーのインストールと設定[^インストールと設定]
+### NVIDIAのドライバーのインストールと設定[^インストールと設定]
 
 [^インストールと設定]: https://rpmfusion.org/Howto/NVIDIA
 
