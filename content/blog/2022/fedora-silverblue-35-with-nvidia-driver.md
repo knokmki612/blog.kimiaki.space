@@ -1,5 +1,5 @@
 ---
-title: Fedora Silverblue 35でNVIDIAのグラフィックドライバーを使う時のTips
+title: Fedora Silverblue 35でNVIDIAのグラフィックドライバーを使う
 date: 2022-04-10T11:05:17+09:00
 tags:
   - Tips
@@ -49,4 +49,4 @@ systemctl enable nvidia-{suspend,resume,hibernate}
 
 ### Flatpakの更新
 
-Flatpakのアプリケーションは、別途NVIDIAドライバーをFlatpakのランタイムとしてインストールする必要がある。そのためには、"ソフトウェア"アプリからアップデートするか、 `flatpak update` を実行すればいい。
+Flatpakのアプリケーションは、別途NVIDIAのドライバーをFlatpakのランタイムとしてインストールする必要がある。そのためには、"ソフトウェア"アプリからアップデートするか、 `flatpak update` を実行すればいい。
