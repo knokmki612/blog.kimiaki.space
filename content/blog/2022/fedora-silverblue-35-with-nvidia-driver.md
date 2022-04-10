@@ -46,3 +46,7 @@ systemctl reboot
 # 電源管理関連のサービスを自動起動するように変更
 systemctl enable nvidia-{suspend,resume,hibernate}
 ```
+
+### Flatpakの更新
+
+Flatpakのアプリケーションは、別途NVIDIAドライバーをFlatpakのランタイムとしてインストールする必要がある。そのためには、"ソフトウェア"アプリからアップデートするか、 `flatpak update` を実行すればいい。
