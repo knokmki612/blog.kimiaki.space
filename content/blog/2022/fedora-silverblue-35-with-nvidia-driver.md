@@ -1,0 +1,48 @@
+---
+title: Fedora Silverblue 35でNvidia Driverを使う時のTips
+date: 2022-04-10T11:05:17+09:00
+tags:
+  - Tips
+  - Fedora Silverblue
+archives:
+  - 2022
+  - 2022-04
+---
+
+```
+
+Nvidiaのグラフィックボードを使っている環境では、デフォルトだとグラフィックドライバーとして[Nouvear](https://nouveau.freedesktop.org/)が使われる。しかし、比較的新しいグラフィックボードを使っている場合や、CUDA、nvencなどを使いたい場合はNvidiaが提供しているドライバーが必要になる。
+
+Fedora Silverblue 35時点でどのような手順で導入することになるか記しておきたいと思う。
+
+最新の情報が知りたければ、注釈に入れているurlを参照してもらいたい。
+
+### RPM Fusionリポジトリの追加[^リポジトリの追加]
+
+[^リポジトリの追加]: https://rpmfusion.org/Configuration
+
+NvidiaのドライバーはFedora / RHELでは提供しておらず、RPM Fusionがコンパイル済みのRPMパッケージを提供してくれている。
+
+RPM FusionではOSSなパッケージはfree、プロプライエタリなパッケージはnonfreeのリポジトリで提供されている。Nvidiaのドライバーはプロプライエタリなので、nonfreeのリポジトリを追加する必要がある。nonfreeのリポジトリを利用するにもfreeのリポジトリが必要なので、両方追加する。
+
+```shell
+# freeのリポジトリの追加
+rpm-ostree https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+# nonfreeのリポジトリの追加
+https://mirrors.rpmfusion.org/free/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+# リポジトリのパッケージを利用するには再起動が必要
+systemctl reboot
+```
+
+### Nvdiaのドライバーのインストールと設定[^インストールと設定]
+
+[^インストールと設定]: https://rpmfusion.org/Howto/NVIDIA
+
+```shell
+# カーネルモジュール、ディスプレイドライバー、CUDA関連、電源管理関連のパッケージのインストール
+rpm-ostree install akmod-nvidia xorg-x11-drv-nvidia{,-cuda,-cuda-libs,-power}
+# 反映には再起動が必要
+systemctl reboot
+# 電源管理関連のサービスを自動起動するように変更
+systemctl enable nvidia-{suspend,resume,hibernate}
+```
