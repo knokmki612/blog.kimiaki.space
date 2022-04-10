@@ -9,7 +9,7 @@ archives:
   - 2022-04
 ---
 
-NVIDIAのグラフィックボードを使っている環境では、デフォルトだとグラフィックドライバーとして[Nouveau](https://nouveau.freedesktop.org/)が使われる。しかし、比較的新しいグラフィックボードを使っている場合や、CUDA、NVENCなどを使いたい場合はNVIDIAが提供しているドライバーが必要になる。
+NVIDIAのグラフィックボードを使っている環境では、デフォルトだとグラフィックドライバーとして[Nouveau](https://nouveau.freedesktop.org/)が使われる。しかし、比較的新しいグラフィックボードを使っていてNouveauの動作が安定しない場合や、CUDA、NVENCなどを使いたい場合はNVIDIAが提供しているドライバーが必要になる。
 
 Fedora Silverblue 35時点でどのような手順で導入することになるか記しておきたいと思う。
 
@@ -50,3 +50,9 @@ systemctl enable nvidia-{suspend,resume,hibernate}
 ### Flatpakの更新
 
 Flatpakのアプリケーションは、別途NVIDIAのドライバーをFlatpakのランタイムとしてインストールする必要がある。そのためには、"ソフトウェア"アプリからアップデートするか、 `flatpak update` を実行すればいい。
+
+### 既知の問題
+
+サスペンドからの復帰後に文字の描画がみだれる[^文字のみだれ]ことがある。GNOMEのデスクトップ環境を使っているなら、GNOME Shellを再起動することで一時的に解消することができる。 `Alt + F2` でコマンドを入力するポップアップが表示されたら、 `r` を入力するとGNOME Shellを再起動できる。
+
+[^文字のみだれ]: https://forums.developer.nvidia.com/t/corrupted-graphics-upon-resume-gnome-41-x-org-495-44-driver/194565
