@@ -100,7 +100,7 @@ podman run -i --rm quay.io/coreos/butane:release --pretty --strict < config.bu >
 
 以下のコマンドを実行。
 
-```
+```shell
 sudo mkdir /var/usb
 sudo mount /dev/sdc1 /var/usb
 sudo coreos-installer /dev/sda --ignition-file /var/usb/config.ign
