@@ -103,7 +103,7 @@ podman run -i --rm quay.io/coreos/butane:release --pretty --strict < config.bu >
 ```shell
 sudo mkdir /var/usb
 sudo mount /dev/sdc1 /var/usb
-sudo coreos-installer /dev/sda --ignition-file /var/usb/config.ign
+sudo coreos-installer install /dev/sda --ignition-file /var/usb/config.ign
 ```
 
 インストールはほぼほぼ2～3GBをddしたみたいな時間で終わった。終わったら `sudo reboot` して素早くUSBメモリを抜く。
