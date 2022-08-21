@@ -70,13 +70,13 @@ storage:
         inline: |
           fedora-coreos
     - path: /etc/NetworkManager/conf.d/enable-mdns.conf
-      mode: 0600
+      mode: 0644
       contents:
         inline: |
           [connection]
           connection.mdns=2
     - path: /etc/systemd/resolved.conf
-      mode: 0600
+      mode: 0644
       append:
         - inline: |
             MulticastDNS=yes
