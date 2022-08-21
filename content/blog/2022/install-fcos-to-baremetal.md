@@ -36,7 +36,7 @@ Ignitionファイルが用意できたら、Live ISOを起動して `coreos-inst
 
 - SSH接続
 - ローカルログイン
-- dockerが使える
+- dockerがsudoなしで使える
 - sudo時パスワード認証
 - mDNSで名前解決
 
