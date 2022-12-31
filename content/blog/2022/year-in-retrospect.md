@@ -49,6 +49,10 @@ archives:
 
 {{% youtube "vl3r_KXBHrE" %}}
 
+### 放送大学
+
+前期後期、ろくに受講科目の学習ができておらず、在籍期間のうち最低の年になりました。休学を考えたほうがいいかもしれません。生涯学生、社会人学生への尊敬の念を禁じ得ません。来年はもう少し学生としてエンジョイできるように考えます。
+
 ### ガジェット
 
 今年は[Pixel 7](https://store.google.com/jp/product/pixel_7?hl=ja)と[Pixel Watch](https://store.google.com/jp/product/google_pixel_watch?hl=ja)、[Steam Deck](https://www.steamdeck.com/ja/)、[サウンドバーガー](https://www.audio-technica.co.jp/product/AT-SB2022)、[ScanSnap iX1400](https://scansnap.fujitsu.com/jp/product/ix1400/)などなどなど…いろいろお迎えしました。動画にするか記事するかしたいですね。
