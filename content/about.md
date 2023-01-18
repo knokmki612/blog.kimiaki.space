@@ -111,14 +111,14 @@ menu:
 ### 連絡先やアカウント
 
 - knokmki612 \[at] gmail.com
-- [Twitter](https://twitter.com/knokmki612)
-- [Facebook](https://www.facebook.com/kimiaki.kuno)
-- [GitHub](https://github.com/knokmki612)
-- [Pawoo](https://pawoo.net/@knokmki612)
-- [pub.kimiaki.space](https://pub.kimiaki.space/@knokmki612)
-- [Vivaldi Forum](https://forum.vivaldi.net/user/knokmki612)
-- [Twitch](https://www.twitch.tv/knokmki612)
-- [YouTube](https://www.youtube.com/channel/UCeRVLPGnyHnch_xefXGYWHQ)
+- <a href="https://twitter.com/knokmki612" rel="me">Twitter</a>
+- <a href="https://www.facebook.com/kimiaki.kuno" rel="me">Facebook</a>
+- <a href="https://github.com/knokmki612" rel="me">GitHub</a>
+- <a href="https://pawoo.net/@knokmki612" rel="me">Pawoo</a>
+- <a href="https://pub.kimiaki.space/@knokmki612" rel="me">Self-Hosted ActivityPub Server</a>
+- <a href="https://forum.vivaldi.net/user/knokmki612" rel="me">Vivaldi Forum</a>
+- <a href="https://www.twitch.tv/knokmki612" rel="me">Twitch</a>
+- <a href="https://www.youtube.com/channel/UCeRVLPGnyHnch_xefXGYWHQ" rel="me">YouTube</a>
 
 #### [PGP](/knokmki612.asc)
 
