@@ -118,7 +118,7 @@ menu:
 - <a href="https://pub.kimiaki.space/@knokmki612" rel="me">Self-Hosted ActivityPub Server</a>
 - <a href="https://forum.vivaldi.net/user/knokmki612" rel="me">Vivaldi Forum</a>
 - <a href="https://www.twitch.tv/knokmki612" rel="me">Twitch</a>
-- <a href="https://www.youtube.com/channel/UCeRVLPGnyHnch_xefXGYWHQ" rel="me">YouTube</a>
+- <a href="https://www.youtube.com/@knokmki612" rel="me">YouTube</a>
 
 #### [PGP](/knokmki612.asc)
 
