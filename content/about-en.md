@@ -66,13 +66,14 @@ I want to work to usability engineering.
 ### Contacts
 
 - knokmki612 \[at] gmail.com
-- [Twitter](https://twitter.com/knokmki612)
-- [Facebook](https://www.facebook.com/kimiaki.kuno)
-- [GitHub](https://github.com/knokmki612)
-- [Pawoo](https://pawoo.net/@knokmki612)
-- [Vivaldi Forum](https://forum.vivaldi.net/user/knokmki612)
-- [Twitch](https://www.twitch.tv/knokmki612)
-- [YouTube](https://www.youtube.com/channel/UCeRVLPGnyHnch_xefXGYWHQ)
+- <a rel="me" href="https://twitter.com/knokmki612">Twitter</a>
+- <a rel="me" href="https://www.facebook.com/kimiaki.kuno">Facebook</a>
+- <a rel="me" href="https://github.com/knokmki612">GitHub</a>
+- <a rel="me" href="https://pawoo.net/@knokmki612">Pawoo</a>
+- <a rel="me" href="https://pub.kimiaki.space/@knokmki612">Self-Hosted ActivityPub Server</a>
+- <a rel="me" href="https://forum.vivaldi.net/user/knokmki612">Vivaldi Forum</a>
+- <a rel="me" href="https://www.twitch.tv/knokmki612">Twitch</a>
+- <a rel="me" href="https://www.youtube.com/@knokmki612">YouTube</a>
 
 #### [PGP](/knokmki612.asc)
 

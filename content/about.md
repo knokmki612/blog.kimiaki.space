@@ -111,14 +111,14 @@ menu:
 ### 連絡先やアカウント
 
 - knokmki612 \[at] gmail.com
-- <a href="https://twitter.com/knokmki612" rel="me">Twitter</a>
-- <a href="https://www.facebook.com/kimiaki.kuno" rel="me">Facebook</a>
-- <a href="https://github.com/knokmki612" rel="me">GitHub</a>
-- <a href="https://pawoo.net/@knokmki612" rel="me">Pawoo</a>
-- <a href="https://pub.kimiaki.space/@knokmki612" rel="me">Self-Hosted ActivityPub Server</a>
-- <a href="https://forum.vivaldi.net/user/knokmki612" rel="me">Vivaldi Forum</a>
-- <a href="https://www.twitch.tv/knokmki612" rel="me">Twitch</a>
-- <a href="https://www.youtube.com/@knokmki612" rel="me">YouTube</a>
+- <a rel="me" href="https://twitter.com/knokmki612">Twitter</a>
+- <a rel="me" href="https://www.facebook.com/kimiaki.kuno">Facebook</a>
+- <a rel="me" href="https://github.com/knokmki612">GitHub</a>
+- <a rel="me" href="https://pawoo.net/@knokmki612">Pawoo</a>
+- <a rel="me" href="https://pub.kimiaki.space/@knokmki612">Self-Hosted ActivityPub Server</a>
+- <a rel="me" href="https://forum.vivaldi.net/user/knokmki612">Vivaldi Forum</a>
+- <a rel="me" href="https://www.twitch.tv/knokmki612">Twitch</a>
+- <a rel="me" href="https://www.youtube.com/@knokmki612">YouTube</a>
 
 #### [PGP](/knokmki612.asc)
 
