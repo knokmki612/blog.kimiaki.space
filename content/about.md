@@ -117,6 +117,7 @@ menu:
 - <a rel="me" href="https://pawoo.net/@knokmki612">Pawoo</a>
 - <a rel="me" href="https://pub.kimiaki.space/@knokmki612">Self-Hosted ActivityPub Server</a>
 - <a rel="me" href="https://forum.vivaldi.net/user/knokmki612">Vivaldi Forum</a>
+- <a rel="me" href="https://social.vivaldi.net/@knokmki612">Vivaldi Social</a>
 - <a rel="me" href="https://www.twitch.tv/knokmki612">Twitch</a>
 - <a rel="me" href="https://www.youtube.com/@knokmki612">YouTube</a>
 
