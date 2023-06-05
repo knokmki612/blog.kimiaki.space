@@ -27,7 +27,7 @@ cd grub2
 dnf download grub2-efi-x64 grub2-common shim-x64
 exit
 # 設定ファイルを再生成するためにGRUB 2設定ファイルを消す
-sudo rm /boot/efi/EFI/fedora/grub.cfg rm /boot/grub2/grub.cfg
+sudo rm /boot/efi/EFI/fedora/grub.cfg /boot/grub2/grub.cfg
 # /usr 配下を書き込み可能にしておく
 sudo rpm-ostree usroverlay
 # パッケージを再インストールする
