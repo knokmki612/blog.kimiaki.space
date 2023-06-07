@@ -24,11 +24,11 @@ toolbox enter
 mkdir grub2
 cd grub2
 # GRUB 2の再インストールに必要なパッケージをダウンロードする
-dnf download grub2-efi-x64 grub2-common shim-x64
+dnf download grub2-efi-x64 grub2-common shim-x64 grub2-tools
 exit
 # 設定ファイルを再生成するためにGRUB 2設定ファイルを消す
-sudo rm /boot/efi/EFI/fedora/grub.cfg /boot/grub2/grub.cfg
-# /usr 配下を書き込み可能にしておく
+sudo rm -r /boot/efi/EFI/fedora /boot/grub2 /etc/grub*
+# /usr 配下を書き込み可能にしておく（インストールを正常に終了させる目的で /usr 配下の変更は再起動後うしなわれる）
 sudo rpm-ostree usroverlay
 # パッケージを再インストールする
 sudo rpm --verbose --reinstall grub2/*
