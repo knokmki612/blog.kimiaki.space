@@ -4,10 +4,10 @@ date: 2023-06-08T18:34:54+09:00
 happenDate: 2023-06-07
 tags:
   - 日記
+  - Fedora
 archives:
   - 2023
   - 2023-06
-  - Fedora
 ---
 
 いつの間にか[Fedora Sericea](https://fedoraproject.org/sericea/)という新しいイミュータブルデスクトップがリリースされていたので試してみた。タイル型ウィンドウマネージャの[Sway](https://swaywm.org/)を使っているのが特長。他にもディスプレイマネージャに[sddm](https://github.com/sddm/sddm)とかファイルマネージャに[Thunar](https://docs.xfce.org/xfce/thunar/start)を採用しており、自分が[LXQt](https://lxqt-project.org/)とか[Xfce](https://www.xfce.org/?lang=ja)使っていた頃を思い出した。
