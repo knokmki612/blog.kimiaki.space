@@ -29,7 +29,7 @@ input * {
 }
 ```
 
-あとは入力メソッドが使えれば常用できる！思ったので `ibus-setup` などを試すと、デフォルトではibusデーモンが起動されない様子。以下の設定を `~/.config/sway/config.d/20-ibus.conf` に追加してログイン時ibusデーモンが起動されるようにする。
+あとは入力メソッドが使えれば常用できる！と思ったので `ibus-setup` などを試すと、デフォルトではibusデーモンが起動されない様子。以下の設定を `~/.config/sway/config.d/20-ibus.conf` に追加してログイン時ibusデーモンが起動されるようにする。
 
 ```
 exec ibus-daemon -drx
