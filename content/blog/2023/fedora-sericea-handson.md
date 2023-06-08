@@ -45,6 +45,6 @@ QT_IM_MODULE=ibus
 XMODIFIERS="@im=ibus"
 ```
 
-これでibus使えそうと思ったが、入力メソッドの切り替えがうまくいかない。キーバインドを変更した `Shift + Space` で入力メソッドが切り替わらないし、Anthyのオン・オフも効かない。あとシステムトレイに今使っている入力メソッドが表示されない[^Chewie Lin]。Fcitx使えば問題なさそうだけど、なんとなくibusが使いたかったので諦めてSilverblueに戻した。
+これでibus使えそうと思ったが、入力メソッドの切り替えがうまくいかない。キーバインドを変更した `Shift + Space` で入力メソッドが切り替わらないし、Anthyのオン・オフも効かない。あとシステムトレイに今使っている入力メソッドが表示されない[^Chewie-Lin]。Fcitx使えば問題なさそうだけど、なんとなくibusが使いたかったので諦めてSilverblueに戻した。
 
-[^Chewie Lin]: https://blog.chewie-lin.me/uim によれば、 `XDG_CURRENT_DESKTOP=KDE ibus-daemon -drx` すると表示される。
+[^Chewie-Lin]: https://blog.chewie-lin.me/uim によれば、 `XDG_CURRENT_DESKTOP=KDE ibus-daemon -drx` すると表示される。
