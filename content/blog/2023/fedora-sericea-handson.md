@@ -35,9 +35,11 @@ input * {
 exec ibus-daemon -drx
 ```
 
-また、起動したアプリケーションでibusが使えるように環境変数[^terminal]を `~/.config/environment.d/10-ibus.conf` に設定する（Waylandは.xprofileなどを参照しないので代わりに次のようにするらしい）
+また、起動したアプリケーションでibusが使えるように環境変数[^terminal]を ~~`~/.config/environment.d/10-ibus.conf`~~ `~/.config/sway/environment`[^fedora-sway-spin] に設定する
 
-[^terminal]: ターミナルセッションからはexportコマンドを使用しても見えない。 `systemctl --user show-environment` すると見える。よく分からない。
+[^terminal]: ターミナルセッションからはexportコマンドを使用しても見えない。 `systemctl --user show-environment` すると見える。よく分からない。…と思ったけどどうもSDDMはWaylandセッション開始時参照してくれないらしい。 https://wiki.archlinux.org/title/environment_variables#Per_Wayland_session
+
+[^fedora-sway-spin]: Fedora Sway Spin 設定ファイル的にはここで環境変数を設定するらしい。 https://docs.fedoraproject.org/en-US/fedora-sericea/configuration-guide/#_environment_variables
 
 ```
 GTK_IM_MODULE=ibus
@@ -45,6 +47,8 @@ QT_IM_MODULE=ibus
 XMODIFIERS="@im=ibus"
 ```
 
-これでibus使えそうと思ったが、入力メソッドの切り替えがうまくいかない。キーバインドを変更した `Shift + Space` で入力メソッドが切り替わらないし、Anthyのオン・オフも効かない。あとシステムトレイに今使っている入力メソッドが表示されない[^Chewie-Lin]。Fcitx使えば問題なさそうだけど、なんとなくibusが使いたかったので諦めてSilverblueに戻した。
+これでibus使えそうと思ったが、~~入力メソッドの切り替えがうまくいかない。キーバインドを変更した `Shift + Space` で入力メソッドが切り替わらないし、Anthyのオン・オフも効かない。~~[^ENV]XWaylandで動くアプリについては変換候補が出なかったり挙動が怪しかったりするけど一応使える。あとシステムトレイに今使っている入力メソッドが表示されない[^Chewie-Lin]。まあとにかくGNOMEのように統合されていたりKDEのようにKimpanelプロトコルが提供されているわけではないので、ibusでの実用には難がありそう。Swayはtext-input-v3プロトコルをサポートしており[^text-input-v3]、Fcitxを使えば問題なさそうだけど、なんとなくibusが使いたかったので諦めてSilverblueに戻した。
 
+[^ENV]: これ自体は環境変数が適切に設定できていなかったことが原因。 https://twitter.com/kenya888/status/1666797998666567681 にて教えてもらった
 [^Chewie-Lin]: https://blog.chewie-lin.me/uim によれば、 `XDG_CURRENT_DESKTOP=KDE ibus-daemon -drx` すると表示される。
+[^text-input-v3]: https://wiki.archlinux.org/title/Fcitx5#Sway
