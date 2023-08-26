@@ -38,7 +38,7 @@ NHI1	  S3	*enabled   pci:0000:67:00.6
 
 なので復帰トリガーを有効にしているデバイスの復帰トリガーを無効にすればいいんだけど、Fedora Silverblueの場合はOSTreeによる管理上読み取り専用のディレクトリが存在し、 `/lib/systemd/system-sleep` 配下にフックスクリプトを置く方法をとることができない。
 
-[ArchWikiのフックの注記](https://wiki.archlinux.jp/index.php/%E9%9B%BB%E6%BA%90%E7%AE%A1%E7%90%86#.2Fusr.2Flib.2Fsystemd.2Fsystem-sleep_.E3.81.AE.E3.83.95.E3.83.83.E3.82.AF)にもあるが、Systemdユニットでも同じタイミングをフックすることができるのでその方針をとった。
+[ArchWikiのフックの注記](https://wiki.archlinux.jp/index.php/%E9%9B%BB%E6%BA%90%E7%AE%A1%E7%90%86#.2Fusr.2Flib.2Fsystemd.2Fsystem-sleep_.E3.81.AE.E3.83.95.E3.83.83.E3.82.AF)にもあるが、Systemdユニットでも同じタイミングをフックすることができるのでその方針をとろうとした。
 
 これまた似たようなことをしている人がいないか調べた[^2]ら、起動時に一回だけ復帰トリガーを無効にすることで解決していたので、毎回どのデバイスで復帰トリガーが有効になっているか変化しないならこれでもいいかなと思った。
 
