@@ -124,9 +124,9 @@ menu:
 #### [PGP](/knokmki612.asc)
 
 ```
-pub   rsa2048 2017-04-06 [SC] [expires: 2023-05-27]
+pub   rsa2048 2017-04-06 [SC] [expires: 2026-09-10]
       4178 8B99 17B2 D4DB E62E  0B60 FA5B D673 4F11 AB77
-sub   rsa2048 2017-04-06 [E] [expires: 2023-05-27]
+sub   rsa2048 2017-04-06 [E] [expires: 2026-09-10]
 ```
 
 ## このサイトについて
