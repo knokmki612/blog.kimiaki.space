@@ -30,8 +30,5 @@ blog = "/:year/:month/:filename/"
 tag = "tags"
 archive = "archives"
 
-[blackfriday]
-plainIDAnchors = false
-
 [markup.goldmark.renderer]
 unsafe = true
