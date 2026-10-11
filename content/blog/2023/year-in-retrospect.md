@@ -1,7 +1,7 @@
 ---
 title: 2023年のふりかえり
 date: 2023-12-31T21:06:51+09:00
-happenDate: 2023-12-31
+eventDate: 2023-12-31
 tags:
   - 日記
 archives:

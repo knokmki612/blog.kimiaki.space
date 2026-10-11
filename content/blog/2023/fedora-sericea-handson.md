@@ -1,7 +1,7 @@
 ---
 title: Fedora Sericeaを試した
 date: 2023-06-08T18:34:54+09:00
-happenDate: 2023-06-07
+eventDate: 2023-06-07
 tags:
   - 日記
   - Fedora

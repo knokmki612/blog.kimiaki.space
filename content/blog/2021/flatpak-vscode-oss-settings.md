@@ -1,7 +1,7 @@
 ---
 title: FlatpakのVSCode(OSS)のリポジトリが移行していて試したらLive Shareも使えた
 date: 2021-07-20T01:12:52+09:00
-happenDate: 2021-07-20
+eventDate: 2021-07-20
 tags:
   - 日記
   - Tips

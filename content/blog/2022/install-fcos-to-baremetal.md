@@ -1,7 +1,7 @@
 ---
 title: Fedora CoreOSを自宅サーバにインストールする
 date: 2022-08-21T10:52:32+09:00
-happenDate: 2022-08-21
+eventDate: 2022-08-21
 tags:
   - Tips
   - Fedora CoreOS

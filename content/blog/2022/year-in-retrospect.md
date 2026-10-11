@@ -1,7 +1,7 @@
 ---
 title: 2022年のふりかえり
 date: 2022-12-31T21:49:56+09:00
-happenDate: 2022-12-31
+eventDate: 2022-12-31
 tags:
   - 日記
 archives:

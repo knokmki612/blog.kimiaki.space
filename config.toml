@@ -1,5 +1,5 @@
 baseURL = "https://blog.kimiaki.space"
-languageCode = "ja-jp"
+locale = "ja-jp"
 title = "横あるき"
 copyright = "2015 knokmki612"
 theme = ["fill-and-stroke"]
@@ -20,7 +20,7 @@ folder = "blog"
 article = "t_blog_thumb"
 ogp = "t_blog_thumb"
 
-[social]
+[params.social]
 twitter = "knokmki612"
 
 [permalinks]

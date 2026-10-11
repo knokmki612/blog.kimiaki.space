@@ -1,7 +1,7 @@
 ---
 title: Live2Dアバターをつくった
 date: 2022-01-09T16:19:39+09:00
-happenDate: 2021-11-14
+eventDate: 2021-11-14
 tags:
   - 日記
 archives:
