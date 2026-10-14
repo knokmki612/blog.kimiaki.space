@@ -7,6 +7,7 @@ menu:
     title: 私について
     weight: 1
 ---
+
 {{% tab %}}
 
 - 日本語
@@ -54,7 +55,7 @@ menu:
 - オーディオテクニカのヘッドホンも好きです
   - [ATH-M20x](https://www.audio-technica.co.jp/product/ATH-M20x) (たぶん初めて買ったヘッドホンです)
   - [ATH-WS1100](https://www.audio-technica.co.jp/product/ATH-WS1100)
-- 歌ってみたをやってみています 
+- 歌ってみたをやってみています
 
 #### アニメ
 
@@ -124,11 +125,12 @@ menu:
 #### [PGP](/knokmki612.asc)
 
 ```
-pub   rsa2048 2017-04-06 [SC] [expires: 2026-09-10]
+pub   rsa2048 2017-04-06 [SC] [有効期限: 2029-10-13]
       4178 8B99 17B2 D4DB E62E  0B60 FA5B D673 4F11 AB77
-sub   rsa2048 2017-04-06 [E] [expires: 2026-09-10]
+sub   rsa2048 2017-04-06 [E] [有効期限: 2029-10-13]
+
 ```
 
 ## このサイトについて
 
-[blogger](http://knockcrab.blogspot.jp/)から移りました。GitHub PagesとHugoで動いています。
+[blogger](http://knockcrab.blogspot.jp/)から移りました。CloudflareとHugoで動いています。

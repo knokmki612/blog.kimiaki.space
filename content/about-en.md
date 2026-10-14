@@ -2,6 +2,7 @@
 title: Overview
 date: 2016-11-30T14:08:31.000Z
 ---
+
 {{% tab %}}
 
 - [日本語]({{% relref "/about" %}})
@@ -79,9 +80,9 @@ I want to work to usability engineering.
 #### [PGP](/knokmki612.asc)
 
 ```
-pub   rsa2048 2017-04-06 [SC] [expires: 2026-09-10]
+pub   rsa2048 2017-04-06 [SC] [expires: 2029-10-13]
       4178 8B99 17B2 D4DB E62E  0B60 FA5B D673 4F11 AB77
-sub   rsa2048 2017-04-06 [E] [expires: 2026-09-10]
+sub   rsa2048 2017-04-06 [E] [expires: 2029-10-13]
 ```
 
 <!--stackedit_data:
